@@ -26,21 +26,29 @@
 
 /** Medium size screen **/
 @media screen and (max-width: 1199px) and (min-width: 992px){
-.top-photo img{
-
+  #main-img{
+    content:url("../css/img/header-photo-med.png")
+    max-width:100%;
+    height: auto;
 }
 } /** Medium size screen **/
 
 
 /** Small size screen **/
 @media screen and (max-width: 991px) and (min-width: 768px){
-
+  #main-img{
+    content:url("../css/img/header-photo-small.png")
+    max-width:100%;
+    height: auto;
+}
 } /** Small size screen **/
 
 
 /** Extra small size screen **/
 @media screen and (max-width: 767px){
-.page-footer{
-
+  #main-img{
+    content:url("../css/img/header-photo-xsmall.png")
+    max-width:100%;
+    height: auto;
 }
 } /** Extra small size screen **/
