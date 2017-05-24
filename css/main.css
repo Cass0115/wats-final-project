@@ -1,3 +1,24 @@
+/** Generic screen sizes **/
+.first-column{
+  float:left;
+  max-width:50%;
+}
+#footer{
+  text-align: center;
+  background-color: grey;
+}
+#footer h4{
+  padding-left: 110px;
+}
+#footer p{
+  font-size:18px;
+  padding-left: 120px;
+}
+#footer li{
+  list-style-type: none;
+  font-size: 18px;
+}
+
 /** Largest screen size (1200px) **/
 @media screen and (min-width: 1200px){
 
@@ -21,6 +42,13 @@
 .page-footer{
   display:inline-block;
 }
+#footer{
+  text-align: center;
+  background-color: grey;
+}
+#footer h5{
+  font-size: bold;
+}
 } /** Largest screen size (1200px) **/
 
 
@@ -28,7 +56,7 @@
 @media screen and (max-width: 1199px) and (min-width: 992px){
   #main-img{
     content:url("../css/img/header-photo-med.png")
-    max-width:100%;
+    width:100%;
     height: auto;
 }
 } /** Medium size screen **/
