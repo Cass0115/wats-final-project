@@ -1,4 +1,26 @@
 /** Generic screen sizes **/
+/** Healthy living section **/
+.about-statement{
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.about-statement p{
+  line-height: 30px;
+}
+
+/** Workout Options **/
+.plans{
+  padding: 20px 10px;
+}
+.plans p{
+  line-height: 30px;
+}
+
+
+/** Footer **/
 .first-column{
   float:left;
   max-width:50%;
@@ -6,9 +28,11 @@
 #footer{
   text-align: center;
   background-color: grey;
+  padding-bottom: 25px;
 }
 #footer h4{
   padding-left: 110px;
+  padding-top:25px;
 }
 #footer p{
   font-size:18px;
@@ -20,44 +44,50 @@
 }
 
 /** Largest screen size (1200px) **/
+
 @media screen and (min-width: 1200px){
 
-.plans{
-  display: inline-block;
-  width: 24%;
-  vertical-align: text-top;
-}
-.fitness-image{
-  height:200px;
-  width:300px;
-}
-.container{
-  margin: 0 auto;
-  width: 90%;
-}
-.top-photo img{
-  max-width: 100%;
-  height: auto;
-}
-.page-footer{
-  display:inline-block;
-}
-#footer{
-  text-align: center;
-  background-color: grey;
-}
-#footer h5{
-  font-size: bold;
-}
+  .plans{
+    display: inline-block;
+    width: 24%;
+    vertical-align: text-top;
+  }
+  .fitness-image{
+    height:200px;
+    width:300px;
+  }
+  .container{
+    margin: 0 auto;
+    width: 90%;
+  }
+  .top-photo img{
+    max-width: 100%;
+    height: auto;
+  }
+  .page-footer{
+    display:inline-block;
+  }
+  #footer{
+    text-align: center;
+    background-color: grey;
+  }
+  #footer h5{
+    font-size: bold;
+  }
+
 } /** Largest screen size (1200px) **/
 
 
 /** Medium size screen **/
-@media screen and (max-width: 1199px) and (min-width: 992px){
+@media screen (max-width: 1199px) and (min-width: 992px){
   #main-img{
-    content:url("../css/img/header-photo-med.png")
+    content:url("../css/img/header-photo-med.png");
     width:100%;
     height: auto;
+}
+.plans img{
+  padding-left: 10px;
+  padding-right: 10px;
 }
 } /** Medium size screen **/
 
@@ -65,7 +95,7 @@
 /** Small size screen **/
 @media screen and (max-width: 991px) and (min-width: 768px){
   #main-img{
-    content:url("../css/img/header-photo-small.png")
+    content:url("../css/img/header-photo-small.png");
     max-width:100%;
     height: auto;
 }
@@ -75,7 +105,7 @@
 /** Extra small size screen **/
 @media screen and (max-width: 767px){
   #main-img{
-    content:url("../css/img/header-photo-xsmall.png")
+    content:url("../css/img/header-photo-xsmall.png");
     max-width:100%;
     height: auto;
 }
