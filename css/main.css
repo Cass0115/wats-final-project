@@ -20,9 +20,12 @@
   line-height: 30px;
 }
 .fitness-image{
-  /*height: 200px;
-  width: 300px;*/
 
+}
+
+/** Instagram Feed **/
+.instagram-feed{
+  width: auto;
 }
 
 
@@ -83,33 +86,22 @@
 
 /** Medium size screen **/
 @media screen (max-width: 1199px) and (min-width: 992px){
-  #main-img{
-    content:url("../css/img/header-photo-med.png");
-    width:100%;
-    height: auto;
-}
-.plans img{
-  padding-left: 10px;
-  padding-right: 10px;
-}
+
 } /** Medium size screen **/
 
 
 /** Small size screen **/
 @media screen and (max-width: 991px) and (min-width: 768px){
-  #main-img{
-    content:url("../css/img/header-photo-small.png");
-    max-width:100%;
-    height: auto;
-}
+
 } /** Small size screen **/
 
 
 /** Extra small size screen **/
 @media screen and (max-width: 767px){
-  #main-img{
-    content:url("../css/img/header-photo-xsmall.png");
-    max-width:100%;
-    height: auto;
-}
+  .plans p{
+    max-width: 550px;
+  }
+  .plans{
+    margin: 0 auto;
+  }
 } /** Extra small size screen **/
