@@ -23,9 +23,18 @@
 
 }
 
+/** Testimonial **/
+.testimonial{
+  padding-top:64px;
+}
+.testimonial h3{
+  text-align: center;
+}
+
 /** Instagram Feed **/
-.instagram-feed{
-  width: auto;
+iframe{
+  padding-bottom:0;
+  margin-bottom:0;
 }
 
 
