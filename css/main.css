@@ -7,8 +7,9 @@ body{
 h1{
   font-weight: lighter;
 }
-h2{
+h4{
   text-transform: uppercase;
+  padding-top: 24px;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -70,10 +71,16 @@ iframe{
   float:left;
   max-width:50%;
 }
+
+
 #footer{
+  color:white;
   text-align: center;
-  background-color: grey;
+  background-color: #8cc6db;
   padding-bottom: 25px;
+}
+#footer a{
+  color:white;
 }
 #footer h4{
   padding-left: 110px;
