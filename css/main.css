@@ -1,6 +1,14 @@
 /** Generic screen sizes **/
 
 /** Healthy living section **/
+body{
+  font-family: 'Cormorant', serif;
+}
+p{
+  font-weight:800;
+  font-size: 16px;
+  line-height: 30px;
+}
 .about-statement{
   text-align: center;
   max-width: 800px;
@@ -16,9 +24,6 @@
 .plans{
   padding-left:30px;
 }
-.plans p{
-  line-height: 30px;
-}
 .fitness-image{
 
 }
@@ -27,8 +32,12 @@
 .testimonial{
   padding-top:64px;
 }
-.testimonial h3{
+
+.testimonial h2{
   text-align: center;
+}
+.testimonial p{
+  line-height: 30px;
 }
 
 /** Instagram Feed **/
