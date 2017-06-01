@@ -3,6 +3,7 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
+  color: #47A8EE;
 }
 h1{
   font-weight: lighter;
@@ -16,6 +17,12 @@ p{
   font-weight:500;
   font-size: 16px;
   line-height: 30px;
+  color: #707070;
+}
+
+/** Navigation **/
+.navbar li{
+
 }
 
 /** Healthy living section **/
@@ -41,7 +48,8 @@ p{
 
 /** Testimonial **/
 .testimonial{
-  padding-top:64px;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .testimonial h1{
@@ -76,8 +84,8 @@ iframe{
 #footer{
   color:white;
   text-align: center;
-  background-color: #8cc6db;
   padding-bottom: 25px;
+  background-color: #8CC6DB;
 }
 #footer a{
   color:white;
@@ -90,6 +98,7 @@ iframe{
 #footer p{
   font-size:18px;
   padding-left: 120px;
+  color: white;
 }
 #footer li{
   font-family: 'Lato', sans-serif;
@@ -121,7 +130,7 @@ iframe{
   }
   #footer{
     text-align: center;
-    background-color: grey;
+    background-color: #8CC6DB;
   }
   #footer h5{
     font-size: bold;
