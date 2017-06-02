@@ -6,11 +6,16 @@ body{
   color: #47A8EE;
 }
 h1{
-  font-weight: lighter;
+  font-weight: 300;
+  font-size: 40px;
+  padding-bottom: 24px;
 }
 h4{
   text-transform: uppercase;
   padding-top: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 p{
   font-family: 'Lato', sans-serif;
@@ -21,9 +26,13 @@ p{
 }
 
 /** Navigation **/
-.navbar li{
-
+.navbar{
+  padding-top: 48px;
 }
+.top-photo{
+  margin-top:-24px;
+}
+
 
 /** Healthy living section **/
 
@@ -44,6 +53,18 @@ p{
 }
 .fitness-image{
 
+}
+.box{
+  background-color: lightgray;
+  padding-top: 1px;
+  height: 300px;
+}
+.box p{
+  padding: 0 16px;
+}
+.box h4{
+  padding: 0 16px;
+  padding-top: 24px;
 }
 
 /** Testimonial **/
@@ -85,7 +106,7 @@ iframe{
   color:white;
   text-align: center;
   padding-bottom: 25px;
-  background-color: #8CC6DB;
+  background-color: #47A8EE;
 }
 #footer a{
   color:white;
@@ -130,7 +151,7 @@ iframe{
   }
   #footer{
     text-align: center;
-    background-color: #8CC6DB;
+    background-color: #47A8EE;
   }
   #footer h5{
     font-size: bold;
