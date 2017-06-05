@@ -7,7 +7,7 @@ $(function(){
     }, "Please use letters and spaces only."
   );
 
-  $('order-form').validate({
+  $('#contact-form').validate({
     submitHandler: function(form){
       form.submit();
     },
